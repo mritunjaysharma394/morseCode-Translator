@@ -2,19 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Public+Sans:wght@400;700&display=swap');
 
 :root {
-    --primary-color: 
-    #1F2937;
+    --primary-color:
+        #1F2937;
     --secondary-color: #FFFBEB;
 }
 
 body {
-    background: radial-gradient(#f6c 5%, rgba(0,0,0,0) 5%), radial-gradient(#6cf 5%, rgba(0,0,0,0) 5%),#1F2937;
+    background: radial-gradient(#f6c 5%, rgba(0, 0, 0, 0) 5%), radial-gradient(#6cf 5%, rgba(0, 0, 0, 0) 5%), #1F2937;
     background-position: 0 0, 30px 30px;
     background-origin: padding-box;
     background-clip: border-box;
     background-size: 60px 60px;
-  }
-  
+}
+
 /** container **/
 
 .container {
@@ -115,35 +115,6 @@ button {
 
 }
 
-#opt1 {
-    display: inline;
-    padding: 0.5rem 1rem;
-    margin-top: 1rem;
-    margin: 0.5rem;
-    border-radius: 5px;
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-    /* width: 8rem; */
-    cursor: pointer;
-    text-align: center;
-    font-family: 'Fugaz One', cursive;
-
-}
-
-#opt2 {
-    display: inline;
-    padding: 0.5rem 1rem;
-    margin-top: 1rem;
-    margin: 0.5rem;
-    border-radius: 5px;
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-    /* width: 8rem; */
-    cursor: pointer;
-    text-align: center;
-    font-family: 'Fugaz One', cursive;
-
-}
 .footer {
     background-color: var(--primary-color);
     position: absolute;

@@ -15,8 +15,21 @@
 
     <div class="container-center">
         <div class="option"> Choose an option: </div>
-        <button id="opt1"> English to Morse Code </button>
-        <button id="opt2"> Morse Code to English </button>
+        <label class="radio">
+            <span class="radio__input">
+                <input type="radio" name="radio" id="opt1">
+                <span class="radio__control"></span>
+            </span>
+            <span class="radio__label">English To Morse Code</span>
+        </label>
+
+        <label class="radio">
+            <span class="radio__input">
+                <input type="radio" name="radio" id="opt2">
+                <span class="radio__control"></span>
+            </span>
+            <span class="radio__label">Morse to English Code</span>
+        </label>
         <label for="inputTxt"> Enter the text to be translated:</label>
         <textarea id="inputTxt" name="inputTxt" rows="5" cols="33" placeholder="Enter the text"></textarea>
         <button id="btn-translate"> Translate </button>
