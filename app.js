@@ -11,10 +11,13 @@ var m2eURL = "http://api.funtranslations.com/translate/morse2english.json";
 
 opt1.addEventListener('change', function () {
     if (this.checked) {
-        console.log("option 1");
         choiceURL = e2mURL;
-        console.log(choiceURL);
+    }
+});
 
+opt2.addEventListener('change', function () {
+    if (this.checked) {
+        choiceURL = m2eURL;
     }
 });
 
@@ -22,14 +25,6 @@ function getTranslateURL(input) {
     return choiceURL + "?text=" + input;
 }
 
-opt2.addEventListener('change', function () {
-    if (this.checked) {
-        console.log("option 2");
-        choiceURL = m2eURL;
-        console.log(choiceURL);
-
-    }
-});
 
 function errorHandler(error) {
     console.log("error occurred", error);
